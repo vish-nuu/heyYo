@@ -3,7 +3,7 @@ var btnSize = 18;
 
 function noFunc() {
   wordArray = ["nejamaa", "dog", "naayi", "peyy", "sethuru", "avlothana", "POOOO", "ahhhh"];
-  document.getElementById("btn2").innerHTML = `${wordArray[count%(len(Array))]}`;
+  document.getElementById("btn2").innerHTML = `${wordArray[count]}`;
   count++;
   document.getElementById("btn1").style.fontSize = `${(btnSize += 20)}px`;
 }
