@@ -7,6 +7,7 @@ function noFunc() {
   count++;
   document.getElementById("btn1").style.fontSize = `${(btnSize += 20)}px`;
 }
+
 function yesFunc() {
   document.getElementById("body").innerHTML = "";
   let img = document.createElement("img");
